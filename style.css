@@ -10,6 +10,7 @@ body{
 
     display: flex;
     justify-content: space-between;
+    padding: 20px 50px;
 }
 .logo{
     font-size: 24px;
@@ -29,6 +30,21 @@ ul{
     color: white;
 
     display: flex;
+    padding: 0 50px;
+    flex-basis: 100%;
+    
+}
+
+.hero-words{
+    flex-basis: 50%;
+    padding: 20px;
+}
+
+#hero-image{
+    flex-basis: 50%;
+    width: 300px;
+    height: auto;
+    padding: 20px;
 }
 
 .large-hero-text{
@@ -44,16 +60,29 @@ ul{
 }
 
 .information-section{
-    
-
+    padding: 0 50px;
     text-align: center;
-
 }
 
 .information-title{
     font-size: 36px;
     font-style: bold;
     color: #1f2937;
+    padding: 20px;
+}
+
+.image-cards{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    padding: 5px;
+}
+
+.card-image{
+    width: 200px;
+    height: 200px;
 }
 
 .quote-section{
@@ -61,16 +90,21 @@ ul{
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
+    padding:  50px;
 }
 
 .call-to-action-section{
     background-color: #3882f6;
+    padding: 0 50px;
 }
 .footer{
     background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
 }
 
 button{
     background-color: #3882f6;
+    color: #f9faf8;
 }
 
