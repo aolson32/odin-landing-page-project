@@ -67,6 +67,7 @@ ul{
 .information-title{
     font-size: 36px;
     font-style: bold;
+    font-weight: 700;
     color: #1f2937;
     padding: 20px;
 }
@@ -94,17 +95,49 @@ ul{
 }
 
 .call-to-action-section{
-    background-color: #3882f6;
     padding: 0 50px;
+    color: #f9faf8;
+    
 }
+.action-banner{
+    background-color: #3882f6;
+    padding: 25px;
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    border: none;
+    flex-basis: 100%;
+}
+.banner-text{
+    flex-basis: 75%;
+}
+
+#banner-title{
+    font-weight: 700;
+}
+
+
+
 .footer{
+    display: flex;
     background-color: #1f2937;
     justify-content: center;
     align-items: center;
+    color: #f9faf8;
+    padding: 15px;
+
 }
 
-button{
+.sign-up{
     background-color: #3882f6;
     color: #f9faf8;
+    border: none;
+    border-radius: 7px;
+}
+
+.action-banner .sign-up{
+    flex-basis: 25%;
+    border: #f9faf8;
 }
 
